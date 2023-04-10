@@ -9,45 +9,9 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_170sdp"
-        android:background="#E2e8e8">
-
-        <LinearLayout
-            android:layout_width="@dimen/_180sdp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_30sdp"
-                android:fontFamily="cursive"
-                android:text="pixel art"
-                android:textColor="#38C7C7"
-                android:textSize="@dimen/_35sdp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:gravity="center"
-                android:text="Create own Photo more Attractive \n with this Effect"
-                android:textColor="#AE302B"
-                android:textStyle="bold"
-                android:textSize="@dimen/_9sdp" />
-
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="@dimen/_130sdp"
-            android:layout_height="match_parent"
-            android:paddingTop="@dimen/_5sdp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/img_1" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner">
 
     </LinearLayout>
 

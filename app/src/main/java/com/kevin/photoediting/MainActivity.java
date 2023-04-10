@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ImageActivity.class);
                 intent.setType("image/*");
                 startActivityForResult(intent, 1);
+                startActivity(intent);
             }
         });
     }
