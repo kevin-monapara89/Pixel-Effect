@@ -30,7 +30,7 @@
                 android:layout_width="@dimen/_45sdp"
                 android:layout_height="@dimen/_45sdp"
                 android:layout_marginLeft="@dimen/_75sdp"
-                android:src="@drawable/img" />
+                android:src="@drawable/start" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:layout_width="@dimen/_45sdp"
                 android:layout_height="@dimen/_45sdp"
                 android:layout_marginLeft="@dimen/_75sdp"
-                android:src="@drawable/img" />
+                android:src="@drawable/more" />
 
             <TextView
                 android:layout_width="match_parent"
